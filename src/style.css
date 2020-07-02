@@ -1,8 +1,8 @@
-div {
+.everydiv {
   margin-bottom: 10px;
 }
 
-div:last-child {
+.last {
   margin-bottom: 0;
 }
 

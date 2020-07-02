@@ -14,7 +14,7 @@
           onsubmit="onSubmit()">
       <fieldset class="fields">
         <legend>Personal information</legend>
-        <div>
+        <div class="everydiv">
           <label for="surname">
             Surname:
             <input
@@ -25,7 +25,7 @@
              >
           </label>
         </div>
-        <div>
+        <div class="everydiv">
           <label for="name">
             Name:
             <input
@@ -36,7 +36,7 @@
             >
           </label>
         </div>
-        <div>
+        <div class="everydiv">
           <label for="age">
             How old are You?
             <input
@@ -50,7 +50,7 @@
             >
           </label>
         </div>
-        <div>
+        <div class="everydiv">
           <label for="birth">
             Full date of birth:
             <input
@@ -61,7 +61,7 @@
             >
           </label>
         </div>
-        <div>
+        <div class="last">
           <label for="terms">
             I accept the term of the agreement
             <input
@@ -74,7 +74,7 @@
       </fieldset>
       <fieldset class="fields">
         <legend>Registration</legend>
-        <div>
+        <div class="everydiv">
           <label for="email">
             E-mail:
             <input
@@ -86,7 +86,7 @@
             >
           </label>
         </div>
-        <div>
+        <div class="last">
           <label for="password">
             Password:
             <input
@@ -102,7 +102,7 @@
       </fieldset>
       <fieldset class="fields">
         <legend>An interesting fact about you!</legend>
-        <div>
+        <div class="everydiv">
           Do you love cats?
           <label for="yes">
             <input
@@ -123,7 +123,7 @@
             No
           </label>
         </div>
-        <div>
+        <div class="everydiv">
           <label for="color">
             What is your favorite color?
             <input
@@ -133,7 +133,7 @@
             >
           </label>
         </div>
-        <div>
+        <div class="everydiv">
           <label for="bed">
             What time do you go to bed?
             <input
@@ -143,7 +143,7 @@
             >
           </label>
         </div>
-        <div>
+        <div class="everydiv">
           <label for="cars">
             What are your favorite brand of cars?
             <select
@@ -152,13 +152,13 @@
               name="cars"
               id="cars"
             >
-              <option>BMW</option>
-              <option>Audi</option>
-              <option>Lada</option>
+              <option value="bmw">BMW</option>
+              <option value="audi">Audi</option>
+              <option value="lada">Lada</option>
             </select>
           </label>
         </div>
-        <div>
+        <div class="last">
           <label for="rate">
             How do you rate you work?
             <input
@@ -173,13 +173,13 @@
       </fieldset>
       <fieldset class="fields">
         <legend>Additional info:</legend>
-        <div>
+        <div class="everydiv">
           <label for="comments">
             Comments:
             <textarea name="comments" id="comments"></textarea>
           </label>
         </div>
-        <div>
+        <div class="last">
           <label for="recommend">
             Would you recommend us?
             <select id="recommend">
@@ -189,7 +189,7 @@
           </label>
         </div>
       </fieldset>
-      <div>
+      <div class="last">
         <button type="submit"> Submit</button>
       </div>
     </form>

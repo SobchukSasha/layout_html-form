@@ -1,8 +1,7 @@
 # Frontend practice with html forms
 1. Replace `SobchukSasha` with your Github username in the links
-    - [DEMO LINK](https://SobchukSasha.github.io/layout_html-form/) <br>
-    - [TEST REPORT LINK](https://SobchukSasha.github.io/layout_html-form/report/html_report/)
-2. Follow [this instructions](https://mate-academy.github.io/layout_task-guideline/)
+   
+   ademy.github.io/layout_task-guideline/)
 ___
 
 ## The task:
